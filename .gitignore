@@ -1,0 +1,34 @@
+# ---- Maven / 构建产物 ----
+target/
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# ---- 日志 / 临时 ----
+*.log
+
+# FineUI 公共仓库本地文件
+[Bb]in/
+[Oo]bj/
+target/
+[Pp]ackages/
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.iml
+*.nupkg
+*.snupkg
+*.mv.db
+*.trace.db
+Directory.Build.local.props
+NuGet.Config
+.local/
+FineUI*.lic*.config
+FineUI.Enterprise.props
