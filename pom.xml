@@ -39,7 +39,7 @@
             <artifactId>spring-boot-starter-validation</artifactId>
         </dependency>
 
-        <!-- 开发期热部署（可选）：改 Java 后自动重启、改模板刷新即生效 -->
+        <!-- 开发期辅助（可选）：改模板刷新即生效；改 Java 后应重启应用，不依赖自动重启 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>

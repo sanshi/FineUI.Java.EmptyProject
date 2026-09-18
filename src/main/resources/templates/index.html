@@ -4,7 +4,7 @@
     <head>
         <title>FineUI.Java 空项目</title>
         <th:block layout:fragment="head">
-            <link type="text/css" rel="stylesheet" href="/res/css/index.css" />
+            <link type="text/css" rel="stylesheet" th:href="@{/res/css/index.css}" />
             <style>
                 /* 欢迎页样式与 fineui-java-examples 的 basic/main 页面保持一致 */
                 .intro {
@@ -212,7 +212,7 @@
                         <f:items>
                             <f:content-panel id="sideheaderTopPanel" css-class="topregion" show-border="false" show-header="false">
                                 <div id="sideheader" class="f-widget-header f-mainheader">
-                                    <a class="logo" href="/" title="FineUI.Java 空项目">FineUI.Java 空项目</a>
+                                    <a class="logo" th:href="@{/}" title="FineUI.Java 空项目">FineUI.Java 空项目</a>
                                     <div class="logo-subtitle">Spring Boot</div>
                                 </div>
                             </f:content-panel>
