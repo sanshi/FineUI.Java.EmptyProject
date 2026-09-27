@@ -40,7 +40,7 @@ mvn spring-boot:run
 
 ## 说明
 
-- FineUI 前端运行时（`/F/FineUI.js`、CSS、主题、语言包）已内嵌在类库 jar 内，随依赖自动提供，无需单独部署。
+- FineUI 前端运行时（`/FineUI/FineUI.js`、CSS、主题、语言包）已内嵌在类库 jar 内，随依赖自动提供，无需单独部署。
 - `res/` 下是项目自带的静态资源（图标、CSS、主题缩略图等），已随本项目提供。
 
 ## 许可边界
