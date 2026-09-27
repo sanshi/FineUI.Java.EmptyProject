@@ -14,7 +14,7 @@
 
 ## 依赖方式
 
-项目文件已声明从公共软件包仓库获取的 Maven 包 `com.fineui:fineui-java`。正常联网构建时，包管理器会自动还原依赖；仓库不包含 FineUI.Core.dll、FineUI.Pro.dll、fineui-java.jar，也不包含 FineUI 框架源码。
+项目文件已声明从公共软件包仓库获取的 Maven 包 `com.fineui:fineui-java`。正常联网构建时，包管理器会自动还原依赖。
 
 FineUI 页面默认开启严格脚本 CSP：只允许同源脚本文件和当前请求授权的模板脚本，不允许原生事件属性或字符串代码执行。`f:` 模板中的普通 `<script>` 由 FineUI.Java 自动加 nonce；升级 `fineui.version` 时须选用包含自动 nonce 处理器的版本。静态 HTML 和普通错误响应不在此策略范围内。
 
