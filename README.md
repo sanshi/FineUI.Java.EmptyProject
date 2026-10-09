@@ -7,6 +7,12 @@
 - **登录页面**（`/login`）：表单校验示例（用户名/密码 admin/admin）；
 - **主题仓库**（`/themes`）：切换内置/自定义主题。
 
+<!-- fineui-community:start -->
+## 加入 FineUI 社区
+
+欢迎[加入 FineUI 社区](https://fineui.com/fans/)，一站式获取社区版、完整示例、空项目、快速入门和 AppBox 等配套资源，及时了解版本更新，交流控件用法与项目实践。**FineUI.Core、FineUI.Pro 与 FineUI.Java 社区版均可永久免费商用**，欢迎一起分享经验、讨论问题。
+<!-- fineui-community:end -->
+
 ## 前提条件
 
 - **JDK 17+**（用 JDK 21 亦可），并设置环境变量 `JAVA_HOME` 指向它；
